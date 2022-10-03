@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+@media (min-width: 960px) {
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: right;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  article {
+    width: 47.5%;
+  }
+}
+
+@media (min-width: 1100px) {
+  nav ul {
+    justify-content: center;
+  }
+  #wrapper {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  article {
+    width: 28%;
+  }
+}
